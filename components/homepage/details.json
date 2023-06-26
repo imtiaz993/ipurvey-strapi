@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_homepage_details",
+  "info": {
+    "name": "details",
+    "icon": "arrow-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "link_text": {
+      "type": "string"
+    },
+    "link_url": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

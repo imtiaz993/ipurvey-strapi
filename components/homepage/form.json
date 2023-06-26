@@ -1,0 +1,86 @@
+{
+  "collectionName": "components_homepage_forms",
+  "info": {
+    "name": "form",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "get_started": {
+      "type": "string"
+    },
+    "how_travel": {
+      "type": "string"
+    },
+    "departure": {
+      "type": "string"
+    },
+    "invalid_date": {
+      "type": "string"
+    },
+    "flight_invalid_date_description": {
+      "type": "richtext"
+    },
+    "where_travel": {
+      "type": "string"
+    },
+    "details": {
+      "type": "string"
+    },
+    "select_flight": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "email_description": {
+      "type": "text"
+    },
+    "one_step": {
+      "type": "string"
+    },
+    "one_step_description": {
+      "type": "text"
+    },
+    "booking_info": {
+      "type": "richtext"
+    },
+    "booking_number": {
+      "type": "string"
+    },
+    "travel_claim_policy": {
+      "type": "richtext"
+    },
+    "rail_invalid_date_description": {
+      "type": "richtext"
+    },
+    "rail_disabled": {
+      "type": "string"
+    },
+    "round_trip_disabled": {
+      "type": "string"
+    },
+    "departure_time": {
+      "type": "string"
+    },
+    "help_text": {
+      "type": "string"
+    },
+    "form_error": {
+      "type": "string"
+    },
+    "submit_text": {
+      "type": "string"
+    },
+    "flight_help": {
+      "type": "text"
+    },
+    "rail_help": {
+      "type": "text"
+    },
+    "popup_text": {
+      "type": "string"
+    }
+  }
+}

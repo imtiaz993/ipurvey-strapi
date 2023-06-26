@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "plans",
+  "info": {
+    "name": "Plans",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    },
+    "small_txt": {
+      "type": "string"
+    },
+    "is_popular": {
+      "type": "boolean"
+    },
+    "features": {
+      "collection": "features",
+      "via": "plans"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "OneOff",
+        "Subscription",
+        "FreeTrial"
+      ],
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "kind": "singleType",
+  "collectionName": "Alpha_homepages",
+  "info": {
+    "name": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.header"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.form"
+    },
+    "Payment": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.payment"
+    },
+    "why_ipurvey_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.why-i-purvey"
+    },
+    "video": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.video"
+    },
+    "numbers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.numbers"
+    },
+    "details_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.details"
+    },
+    "features_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.features-section"
+    },
+    "email_verification": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.email-verification"
+    },
+    "user_details": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.user-details"
+    },
+    "user_password": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.user-password"
+    },
+    "OCH": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.och"
+    }
+  }
+}

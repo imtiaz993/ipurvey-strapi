@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pricing_providers",
+  "info": {
+    "name": "Providers",
+    "icon": "asterisk"
+  },
+  "options": {},
+  "attributes": {
+    "paypal_desc": {
+      "type": "text"
+    },
+    "bank": {
+      "type": "string"
+    },
+    "bank_desc": {
+      "type": "text"
+    },
+    "bank_auth": {
+      "type": "string"
+    }
+  }
+}

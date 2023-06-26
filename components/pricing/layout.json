@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_pricing_layouts",
+  "info": {
+    "name": "Layout",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "plan": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    }
+  }
+}

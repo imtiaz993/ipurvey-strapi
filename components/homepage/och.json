@@ -1,0 +1,62 @@
+{
+  "collectionName": "components_homepage_oches",
+  "info": {
+    "name": "OCH",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "eligible_title": {
+      "type": "string"
+    },
+    "not_eligible_title": {
+      "type": "string"
+    },
+    "sign_up_title": {
+      "type": "string"
+    },
+    "confirmation_title": {
+      "type": "string"
+    },
+    "confirmation_desc": {
+      "type": "text"
+    },
+    "summary_title": {
+      "type": "string"
+    },
+    "learn_more": {
+      "type": "string"
+    },
+    "claim_compensation": {
+      "type": "string"
+    },
+    "signup_text": {
+      "type": "string"
+    },
+    "return_to_home": {
+      "type": "string"
+    },
+    "contact_support": {
+      "type": "string"
+    },
+    "something_not_right": {
+      "type": "string"
+    },
+    "error_text": {
+      "type": "string"
+    },
+    "try_again": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "we_re_working": {
+      "type": "string"
+    },
+    "go_to_dashboard": {
+      "type": "string"
+    }
+  }
+}

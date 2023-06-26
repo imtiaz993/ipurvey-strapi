@@ -1,0 +1,130 @@
+{
+  "kind": "singleType",
+  "collectionName": "dashoards",
+  "info": {
+    "name": "Dashboard",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "delete_account": {
+      "type": "text"
+    },
+    "travel_bookings": {
+      "type": "string"
+    },
+    "recent_travel_bookings": {
+      "type": "string"
+    },
+    "travel_bookings_status": {
+      "type": "string"
+    },
+    "search_travel_bookings": {
+      "type": "string"
+    },
+    "leaving_options": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.leaving"
+    },
+    "newsletter_setting": {
+      "type": "text"
+    },
+    "feedback_setting": {
+      "type": "text"
+    },
+    "new_help": {
+      "type": "text"
+    },
+    "info_required_help": {
+      "type": "text"
+    },
+    "claim_requested_help": {
+      "type": "text"
+    },
+    "expired_help": {
+      "type": "text"
+    },
+    "closed_help": {
+      "type": "text"
+    },
+    "sidebar": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.sidebar"
+    },
+    "manage_subscription": {
+      "type": "string"
+    },
+    "security_setting": {
+      "type": "string"
+    },
+    "close_account": {
+      "type": "string"
+    },
+    "why_leaving": {
+      "type": "string"
+    },
+    "close_acc_small": {
+      "type": "string"
+    },
+    "confirm_closure": {
+      "type": "string"
+    },
+    "return_home": {
+      "type": "string"
+    },
+    "submit_new_travel": {
+      "type": "string"
+    },
+    "your_travel_booking": {
+      "type": "string"
+    },
+    "your_recent_booking": {
+      "type": "string"
+    },
+    "payment_detail": {
+      "type": "string"
+    },
+    "sort_code": {
+      "type": "string"
+    },
+    "account_number": {
+      "type": "string"
+    },
+    "alternative": {
+      "type": "string"
+    },
+    "account_setting": {
+      "type": "string"
+    },
+    "newsletter": {
+      "type": "string"
+    },
+    "feedback": {
+      "type": "string"
+    },
+    "notification": {
+      "type": "string"
+    },
+    "view_acc_info": {
+      "type": "string"
+    },
+    "account_activity": {
+      "type": "string"
+    },
+    "newsletter_title": {
+      "type": "string"
+    },
+    "feedback_title": {
+      "type": "string"
+    },
+    "search_travel": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/dashoard",
+      "handler": "dashoard.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/dashoard",
+      "handler": "dashoard.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/dashoard",
+      "handler": "dashoard.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

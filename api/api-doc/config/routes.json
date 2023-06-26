@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/api-doc",
+      "handler": "api-doc.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/api-doc",
+      "handler": "api-doc.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/api-doc",
+      "handler": "api-doc.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

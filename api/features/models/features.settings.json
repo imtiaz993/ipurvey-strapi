@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "features",
+  "info": {
+    "name": "Features",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "plans": {
+      "via": "features",
+      "collection": "plans",
+      "dominant": true
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

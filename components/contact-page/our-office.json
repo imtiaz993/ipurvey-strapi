@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_contact_page_our_offices",
+  "info": {
+    "name": "Our Office",
+    "icon": "arrow-right"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "map_address": {
+      "type": "text"
+    },
+    "head_office": {
+      "type": "string"
+    },
+    "location": {
+      "type": "text"
+    },
+    "phone_ho": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string"
+    },
+    "buissness_support_title": {
+      "type": "string"
+    },
+    "buissness_support_phone": {
+      "type": "string"
+    },
+    "client_support_title": {
+      "type": "string"
+    },
+    "client_support_phone": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_privacy_paragraphs",
+  "info": {
+    "name": "Paragraph",
+    "icon": "chalkboard"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

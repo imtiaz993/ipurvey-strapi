@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_privacy_paragraph_rights",
+  "info": {
+    "name": "paragraph_right",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "richtext"
+    }
+  }
+}

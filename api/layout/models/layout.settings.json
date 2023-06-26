@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "layouts",
+  "info": {
+    "name": "Layout",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.footer-section"
+    },
+    "cookie": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.cookie-section"
+    },
+    "sign_up_today": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.sign-up"
+    },
+    "auth": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.signup"
+    },
+    "trusted_by": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.trusted-by"
+    },
+    "account_closure": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.account-closure"
+    },
+    "feedback": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.feedback"
+    },
+    "logout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.logout"
+    }
+  }
+}

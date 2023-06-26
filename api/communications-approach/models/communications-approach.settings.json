@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "alpha_communications_approaches",
+  "info": {
+    "name": "Communications Approach",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "ref_id": {
+      "type": "string"
+    },
+    "customer_life_cycle": {
+      "type": "string"
+    },
+    "progress_category": {
+      "type": "string"
+    },
+    "cohort_product": {
+      "type": "string"
+    },
+    "communication_title": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "richtext"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "messaging_channels": {
+      "collection": "messaging-channels"
+    }
+  }
+}

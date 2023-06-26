@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_homepage_flight_items",
+  "info": {
+    "name": "Flight Item",
+    "icon": "caret-up"
+  },
+  "options": {},
+  "attributes": {
+    "count": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

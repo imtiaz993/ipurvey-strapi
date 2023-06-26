@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pricing_transactions",
+  "info": {
+    "name": "Transaction",
+    "icon": "audio-description"
+  },
+  "options": {},
+  "attributes": {
+    "success": {
+      "type": "string"
+    },
+    "success_desc": {
+      "type": "text"
+    },
+    "fail": {
+      "type": "string"
+    },
+    "fail_desc": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_homepage_features_sections",
+  "info": {
+    "name": "features_section",
+    "icon": "blender"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "feature_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.feature-card"
+    }
+  }
+}

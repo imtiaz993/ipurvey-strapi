@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_developers_headers",
+  "info": {
+    "name": "header",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

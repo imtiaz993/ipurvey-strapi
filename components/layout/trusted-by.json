@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_layout_trusted_bies",
+  "info": {
+    "name": "Trusted By",
+    "icon": "binoculars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

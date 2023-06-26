@@ -1,0 +1,68 @@
+{
+  "collectionName": "components_homepage_footer_sections",
+  "info": {
+    "name": "Footer",
+    "icon": "puzzle-piece",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "instagram_url": {
+      "type": "string"
+    },
+    "twitter_url": {
+      "type": "string"
+    },
+    "linkedin_url": {
+      "type": "string"
+    },
+    "youtube_url": {
+      "type": "string"
+    },
+    "facebook_url": {
+      "type": "string"
+    },
+    "connect": {
+      "type": "string"
+    },
+    "copyrights_text": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "account_link": {
+      "type": "string"
+    },
+    "blog_link": {
+      "type": "string"
+    },
+    "career_link": {
+      "type": "string"
+    },
+    "about_link": {
+      "type": "string"
+    },
+    "contact_link": {
+      "type": "string"
+    },
+    "legal": {
+      "type": "string"
+    },
+    "policy_link": {
+      "type": "string"
+    },
+    "terms_link": {
+      "type": "string"
+    },
+    "faq_link": {
+      "type": "string"
+    },
+    "get_in_touch": {
+      "type": "string"
+    },
+    "support": {
+      "type": "string"
+    }
+  }
+}

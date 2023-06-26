@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_career_benifits",
+  "info": {
+    "name": "Benifits",
+    "icon": "balance-scale-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Benefit": {
+      "type": "component",
+      "repeatable": true,
+      "component": "career.benefit"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

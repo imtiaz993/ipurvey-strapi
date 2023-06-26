@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_homepage_email_verifications",
+  "info": {
+    "name": "Email Verification",
+    "icon": "feather-alt"
+  },
+  "options": {},
+  "attributes": {
+    "verify_email_title": {
+      "type": "string"
+    },
+    "verify_email_description": {
+      "type": "string"
+    },
+    "verification_link_sent": {
+      "type": "text"
+    },
+    "verification_success_title": {
+      "type": "string"
+    },
+    "verification_success_description": {
+      "type": "text"
+    }
+  }
+}

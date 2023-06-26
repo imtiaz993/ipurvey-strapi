@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_homepage_headers",
+  "info": {
+    "name": "header",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "info_text": {
+      "type": "richtext"
+    },
+    "ticks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.tick"
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "collectionName": "components_homepage_payments",
+  "info": {
+    "name": "Payment",
+    "icon": "money-bill-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "thank_you_description": {
+      "type": "string"
+    },
+    "thank_you": {
+      "type": "string"
+    },
+    "stripe": {
+      "type": "string"
+    },
+    "payment_option": {
+      "type": "string"
+    },
+    "paypal_description": {
+      "type": "text"
+    },
+    "payment_method_description": {
+      "type": "text"
+    },
+    "payment_method": {
+      "type": "string"
+    },
+    "select_bank": {
+      "type": "string"
+    },
+    "authenticate": {
+      "type": "string"
+    },
+    "authorize": {
+      "type": "string"
+    },
+    "failed": {
+      "type": "string"
+    },
+    "failed_description": {
+      "type": "text"
+    },
+    "select_bank_description": {
+      "type": "text"
+    },
+    "order_summary": {
+      "type": "string"
+    },
+    "select_plan": {
+      "type": "string"
+    },
+    "address_form_title": {
+      "type": "string"
+    },
+    "address_form_text": {
+      "type": "string"
+    },
+    "address_form_couldnt_find": {
+      "type": "string"
+    },
+    "manual_address_text": {
+      "type": "string"
+    },
+    "bank_detail_form_title": {
+      "type": "string"
+    },
+    "bank_detail_form_text": {
+      "type": "string"
+    },
+    "payment_done_title": {
+      "type": "string"
+    },
+    "payment_done_text": {
+      "type": "text"
+    },
+    "subscribe_text": {
+      "type": "string"
+    },
+    "claim_text": {
+      "type": "string"
+    },
+    "starting_from": {
+      "type": "string"
+    },
+    "plan1_price": {
+      "type": "string"
+    },
+    "plan1_detail": {
+      "type": "string"
+    },
+    "plan2_detail": {
+      "type": "string"
+    },
+    "plan2_price": {
+      "type": "string"
+    },
+    "single_claim": {
+      "type": "string"
+    },
+    "already_subscribe": {
+      "type": "string"
+    },
+    "select_payment": {
+      "type": "string"
+    },
+    "proceed": {
+      "type": "string"
+    },
+    "payment_to_continue": {
+      "type": "string"
+    },
+    "all_set": {
+      "type": "string"
+    },
+    "continue_dashboard": {
+      "type": "string"
+    },
+    "retrieve_another": {
+      "type": "string"
+    },
+    "single_claim_initiation": {
+      "type": "string"
+    },
+    "our_plan_title": {
+      "type": "string"
+    },
+    "features_title": {
+      "type": "string"
+    },
+    "get_started": {
+      "type": "string"
+    },
+    "yes_button": {
+      "type": "string"
+    },
+    "no_button": {
+      "type": "string"
+    },
+    "popular_title": {
+      "type": "string"
+    }
+  }
+}

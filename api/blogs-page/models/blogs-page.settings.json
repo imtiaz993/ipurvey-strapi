@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "blogs_pages",
+  "info": {
+    "name": "Blogs Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "slider": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blogs.slider"
+    },
+    "faceboo_feed": {
+      "type": "string"
+    },
+    "follow_us_facebook": {
+      "type": "string"
+    },
+    "insta_feed": {
+      "type": "string"
+    },
+    "follow_on_intsa": {
+      "type": "string"
+    }
+  }
+}

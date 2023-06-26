@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_pricing_options",
+  "info": {
+    "name": "Options",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "header": {
+      "type": "string"
+    },
+    "subscribe_text": {
+      "type": "text"
+    },
+    "one_off_text": {
+      "type": "text"
+    },
+    "our_plan_title": {
+      "type": "string"
+    },
+    "feature_title": {
+      "type": "string"
+    },
+    "popular_title": {
+      "type": "string"
+    },
+    "get_started": {
+      "type": "string"
+    },
+    "yes_button": {
+      "type": "string"
+    },
+    "no_button": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_services_blocks",
+  "info": {
+    "name": "Block",
+    "icon": "assistive-listening-systems"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

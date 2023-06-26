@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_layout_account_closures",
+  "info": {
+    "name": "account closure",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

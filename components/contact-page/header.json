@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_contact_page_headers",
+  "info": {
+    "name": "header",
+    "icon": "kiss"
+  },
+  "options": {},
+  "attributes": {
+    "title_1": {
+      "type": "string"
+    },
+    "title_2": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

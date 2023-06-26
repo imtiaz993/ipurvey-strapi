@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_layout_feedbacks",
+  "info": {
+    "name": "feedback",
+    "icon": "edit"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "rating1_text": {
+      "type": "string"
+    },
+    "rating2_text": {
+      "type": "string"
+    },
+    "rating3_text": {
+      "type": "string"
+    },
+    "write_feedback_text": {
+      "type": "string"
+    }
+  }
+}

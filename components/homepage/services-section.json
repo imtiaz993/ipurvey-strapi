@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_homepage_services_sections",
+  "info": {
+    "name": "Services_Section",
+    "icon": "dice-d20",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item_1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.service-item"
+    },
+    "item_2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.service-item"
+    },
+    "item_3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.service-item"
+    },
+    "download_app_text": {
+      "type": "string"
+    }
+  }
+}

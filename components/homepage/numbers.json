@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_homepage_numbers",
+  "info": {
+    "name": "numbers",
+    "icon": "adjust"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "number_card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.number-card"
+    }
+  }
+}

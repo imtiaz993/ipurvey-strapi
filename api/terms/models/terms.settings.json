@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "terms",
+  "info": {
+    "name": "Terms",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "term": {
+      "type": "component",
+      "repeatable": true,
+      "component": "terms.terms"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

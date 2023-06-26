@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_homepage_number_cards",
+  "info": {
+    "name": "number_card",
+    "icon": "angle-double-up"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

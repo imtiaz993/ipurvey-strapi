@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_terms_terms",
+  "info": {
+    "name": "terms",
+    "icon": "paper-plane"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

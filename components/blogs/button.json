@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blogs_buttons",
+  "info": {
+    "name": "button",
+    "icon": "comment-medical",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

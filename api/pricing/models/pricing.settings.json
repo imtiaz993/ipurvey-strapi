@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricings",
+  "info": {
+    "name": "Pricing",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Options": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.options"
+    },
+    "Method": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.method"
+    },
+    "Providers": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.providers"
+    },
+    "Layout": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.layout"
+    },
+    "Transaction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.transaction"
+    },
+    "Free_Trial": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.free-trial"
+    },
+    "Confrim": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.confrim"
+    }
+  }
+}

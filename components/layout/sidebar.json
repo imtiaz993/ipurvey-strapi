@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_layout_sidebars",
+  "info": {
+    "name": "sidebar",
+    "icon": "angle-left"
+  },
+  "options": {},
+  "attributes": {
+    "your_account": {
+      "type": "string"
+    },
+    "your_travel": {
+      "type": "string"
+    },
+    "your_dashboard": {
+      "type": "string"
+    },
+    "manage_subscribtion": {
+      "type": "string"
+    },
+    "change_password": {
+      "type": "string"
+    },
+    "manage_account": {
+      "type": "string"
+    },
+    "view_account": {
+      "type": "string"
+    },
+    "dashboard": {
+      "type": "string"
+    },
+    "update_account": {
+      "type": "string"
+    },
+    "delete_account": {
+      "type": "string"
+    }
+  }
+}

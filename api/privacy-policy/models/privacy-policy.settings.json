@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "alpha_privacy_policies",
+  "info": {
+    "name": "Privacy Policy",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "Paragraph": {
+      "type": "component",
+      "repeatable": true,
+      "component": "privacy.paragraph"
+    }
+  }
+}

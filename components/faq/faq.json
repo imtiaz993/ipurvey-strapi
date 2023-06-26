@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_faq_faqs",
+  "info": {
+    "name": "FAQ",
+    "icon": "barcode"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}

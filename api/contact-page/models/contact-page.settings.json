@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "alpha_contact_pages",
+  "info": {
+    "name": "Contact Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "header_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-page.top-section"
+    },
+    "get_in_touch": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-page.get-in-touch"
+    },
+    "our_office": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-page.our-office"
+    }
+  }
+}

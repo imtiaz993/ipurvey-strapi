@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/communications-approaches",
+      "handler": "communications-approach.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/communications-approaches/count",
+      "handler": "communications-approach.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/communications-approaches/:id",
+      "handler": "communications-approach.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/communications-approaches",
+      "handler": "communications-approach.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/communications-approaches/:id",
+      "handler": "communications-approach.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/communications-approaches/:id",
+      "handler": "communications-approach.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

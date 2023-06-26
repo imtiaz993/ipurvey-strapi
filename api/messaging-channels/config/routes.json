@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/messaging-channels",
+      "handler": "messaging-channels.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/messaging-channels/count",
+      "handler": "messaging-channels.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/messaging-channels/:id",
+      "handler": "messaging-channels.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/messaging-channels",
+      "handler": "messaging-channels.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/messaging-channels/:id",
+      "handler": "messaging-channels.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/messaging-channels/:id",
+      "handler": "messaging-channels.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

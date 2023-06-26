@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_services_final_blocks",
+  "info": {
+    "name": "final_block",
+    "icon": "battery-empty",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link_text": {
+      "type": "string"
+    },
+    "link_url": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "button_url": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_developers_contents",
+  "info": {
+    "name": "content",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

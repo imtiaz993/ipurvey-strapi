@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_homepage_user_details",
+  "info": {
+    "name": "User Details",
+    "icon": "circle"
+  },
+  "options": {},
+  "attributes": {
+    "enter_address_title": {
+      "type": "string"
+    },
+    "enter_address_description": {
+      "type": "text"
+    },
+    "enter_bank_title": {
+      "type": "string"
+    },
+    "enter_bank_description": {
+      "type": "text"
+    }
+  }
+}

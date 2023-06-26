@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_homepage_why_i_purveys",
+  "info": {
+    "name": "Why iPurvey",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "card": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.card"
+    }
+  }
+}

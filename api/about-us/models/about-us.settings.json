@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "alpha_about_uses",
+  "info": {
+    "name": "About Us",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-page.header"
+    },
+    "body": {
+      "type": "component",
+      "repeatable": false,
+      "component": "contact-page.body"
+    },
+    "get_app": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contact_page_get_in_touches",
+  "info": {
+    "name": "Get in Touch",
+    "icon": "broadcast-tower"
+  },
+  "options": {},
+  "attributes": {
+    "video_url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

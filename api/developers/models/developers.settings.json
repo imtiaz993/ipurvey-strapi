@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "developers",
+  "info": {
+    "name": "Developers",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "developers.header"
+    },
+    "body": {
+      "type": "component",
+      "repeatable": false,
+      "component": "developers.body"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "api_docs",
+  "info": {
+    "name": "API Doc"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "document": {
+      "type": "component",
+      "repeatable": true,
+      "component": "api-doc.document"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_logouts",
+  "info": {
+    "name": "logout",
+    "icon": "backward"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button_text": {
+      "type": "string"
+    }
+  }
+}

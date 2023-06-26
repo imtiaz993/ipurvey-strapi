@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_homepage_delayed_flights_sections",
+  "info": {
+    "name": "Delayed Flights Section",
+    "icon": "align-center",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "item_1": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.flight-item"
+    },
+    "item_2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.flight-item"
+    },
+    "item_3": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.flight-item"
+    },
+    "item_4": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.flight-item"
+    }
+  }
+}

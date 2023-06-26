@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_api_doc_documents",
+  "info": {
+    "name": "document",
+    "icon": "basketball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "document": {
+      "type": "richtext"
+    }
+  }
+}

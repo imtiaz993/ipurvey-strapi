@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "services",
+  "info": {
+    "name": "Services",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "block": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services.block"
+    },
+    "final_block": {
+      "type": "component",
+      "repeatable": false,
+      "component": "services.final-block"
+    }
+  }
+}

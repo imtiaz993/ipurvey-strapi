@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_services_leavings",
+  "info": {
+    "name": "leaving",
+    "icon": "arrow-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    }
+  }
+}

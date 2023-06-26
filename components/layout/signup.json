@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_homepage_signups",
+  "info": {
+    "name": "auth",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "signup": {
+      "type": "string"
+    },
+    "login": {
+      "type": "string"
+    }
+  }
+}

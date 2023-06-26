@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pricing_free_trials",
+  "info": {
+    "name": "Free Trial",
+    "icon": "baseball-ball"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button": {
+      "type": "string"
+    },
+    "gray_button": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_pricing_methods",
+  "info": {
+    "name": "Method",
+    "icon": "bell-slash"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "subscribed": {
+      "type": "string"
+    },
+    "subscribed_second_line": {
+      "type": "string"
+    }
+  }
+}

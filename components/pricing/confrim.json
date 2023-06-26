@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_pricing_confrims",
+  "info": {
+    "name": "Confrim",
+    "icon": "baby-carriage"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

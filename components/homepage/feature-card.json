@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_homepage_feature_cards",
+  "info": {
+    "name": "feature_card",
+    "icon": "arrows-alt-v"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "link_text": {
+      "type": "string"
+    },
+    "link_url": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

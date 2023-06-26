@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_homepage_ticks",
+  "info": {
+    "name": "tick",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "tick": {
+      "type": "string"
+    }
+  }
+}
